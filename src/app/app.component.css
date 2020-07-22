@@ -1,0 +1,31 @@
+#box {
+  background: url("/assets/images/soleil.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 100vh;
+  color: #fff;
+}
+
+#ville {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1em;
+  background: rgb(173, 173, 173);
+  background: linear-gradient(
+    114deg,
+    rgba(173, 173, 173, 0.1) 0%,
+    rgba(173, 173, 173, 0.1) 100%
+  );
+  color: #fff;
+  border: none;
+}
+
+#temperature,
+#description {
+  font-size: 1em;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
